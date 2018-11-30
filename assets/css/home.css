@@ -1,8 +1,8 @@
 button {
 	white-space: normal;
-	margin: 5px;
 }
 
 .button-text {
   font-size: 36px;
+  color: #007bff;
 }
