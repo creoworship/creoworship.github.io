@@ -1,0 +1,33 @@
+.card {
+	border-color: #660066;
+}
+
+.card-header {
+	background-color: #ffccff;
+}
+
+.card-header img {
+	max-height: 48px !important;
+}
+
+.card-body {
+	color: black;
+	text-align: left;
+}
+
+.card button {
+	font-size: 32px !important;
+}
+
+.card li {
+	font-size: 24px !important;
+}
+
+.card h2 {
+	color: black;
+}
+
+.card img {
+	max-height: 200px;
+	max-width: 200px;
+}

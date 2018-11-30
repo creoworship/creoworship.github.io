@@ -13,16 +13,30 @@
 	    <!-- Fonts -->
     	<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
 
+      <!-- Icons -->
+      <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+
 	    <!-- Bootstrap CSS -->
 	    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	    <!-- Custom CSS -->
 	    <link rel="stylesheet" href="assets/css/main.css">
+      <link rel="stylesheet" href="assets/css/setup.css">
 
       <!-- JavaScript -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
       <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
       <script src="assets/js/bootstrap.min.js"></script>
+
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130121593-2"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-130121593-2');
+      </script>
 
 	    <title>Creo Tech - Setup</title>
 	</head>
@@ -59,7 +73,319 @@
     	<!-- /.Navbar -->
 		<div class="title centered col-12">
 			<h1>Setup</h1>
-			<h3>Under construction</h3>
+			<h3>What are you setting up?</h3>
 		</div>
+
+    <div class="centered col-12">
+      <div class="accordion" id="setupAccordion">
+
+        <div class="card"> <!-- In Ears -->
+          <div class="card-header" id="inEars">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseInEars" aria-expanded="false" aria-controls="collapseInEars">
+                <img src="assets/icons/earphones.svg" alt="earphones"><b> In-Ears</b>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseInEars" class="collapse" aria-labelledby="inEars" data-parent="#setupAccordion">
+            <div class="card-body">
+              <div class="col-12 centered images">
+                <img src="assets/images/xlr.png" alt="xlr"/>
+                <img src="assets/images/iem-box.png" alt="iem-box"/>
+                <img src="assets/images/iem-battery.png" alt="iem-battery"/>
+                <img src="assets/images/iem-extensions.png" alt="iem-extensions"/>
+                <img src="assets/images/iem-splitter.png" alt="iem-splitter"/>
+              </div>
+              <div class="col-12">
+                <ol>
+                  <li>Get an XLR and a monitor box from the In-Ear Monitors box.</li>
+                  <li>Get a rechargeable battery from one of the chargers.</li>
+                  <li>Plug the battery into the box, and make sure the box is set to MONO (not STEREO).</li>
+                  <li>Connect your box to the correct output at the back of the stage with an XLR (see below).</li>
+                  <li>Connect your headphones or monitors to the box.</li>
+                  <li>Turn the box ON.</li>
+                  <li>Connect to the "Tenth Gym" network with password: earsacce$$</li>
+                  <li>Use the Qu-You app to set your mix and control who you hear.</li>
+                </ol>
+              </div>
+              <div class="col-12 centered">
+                <img src="assets/images/qu-you.jpg" alt="qu-you" style="height: 100px">
+                Download the app:
+                <br>
+                <a href="https://itunes.apple.com/app/qu-you/id935278018" target="_blank">
+                  <span style="font-size: 6em;">
+                    <i class="fab fa-app-store"></i>
+                  </span>
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.allenheath.qumon" target="_blank">
+                  <span style="font-size: 6em;">
+                    <i class="fab fa-google-play"></i>
+                  </span>
+                </a>
+              </div>
+              <hr>
+              <div class="col-12">
+                <u>OUTPUT CHART</u>
+                <table style="width: 100%">
+                  <tr>
+                    <th>I am on...</th>
+                    <th>I should plug into...</th>
+                    <th>and set my mix to...</th>
+                  </tr>
+                  <tr>
+                    <td>Vocals</td>
+                    <td>3 or 4</td>
+                    <td>Mix3</td>
+                  </tr>
+                  <tr>
+                    <td>Electric</td>
+                    <td>9</td>
+                    <td>Mix4</td>
+                  </tr>
+                  <tr>
+                    <td>Acoustic</td>
+                    <td>10</td>
+                    <td>Mix5-6</td>
+                  </tr>
+                  <tr>
+                    <td>Keys</td>
+                    <td>11</td>
+                    <td>Mix7-8</td>
+                  </tr>
+                  <tr>
+                    <td>Bass/Drums</td>
+                    <td>12</td>
+                    <td>Mix9-10</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div> <!-- /.In Ears -->
+
+        <div class="card"> <!-- Vocals -->
+          <div class="card-header" id="vocals">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseVocals" aria-expanded="false" aria-controls="collapseVocals">
+                <img src="assets/icons/microphone.svg" alt="microphone"><b> Vocals</b>
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapseVocals" class="collapse" aria-labelledby="vocals" data-parent="#setupAccordion">
+            <div class="card-body">
+              <div class="col-12 centered images">
+                <img src="assets/images/open-mic-stand.png" alt="open-mic-stand"/>
+                <img src="assets/images/xlr.png" alt="xlr"/>
+                <img src="assets/images/vocal-mic.png" alt="xlr"/>
+              </div>
+              <div class="col-12">
+                <ol>
+                  <li>Get a mic stand, an XLR, and a vocal microphone.</li>
+                  <li>Set up your mic where comfortable.</li>
+                  <li>Plug your mic into channel 15, 19, or 21.</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div> <!-- /.Vocals -->
+
+        <div class="card"> <!-- Keys -->
+          <div class="card-header" id="keys">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseKeys" aria-expanded="false" aria-controls="collapseKeys">
+                <img src="assets/icons/keys.svg" alt="keys"><b> Keys (Nord)</b>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseKeys" class="collapse" aria-labelledby="keys" data-parent="#setupAccordion">
+            <div class="card-body">
+              <h2>If you ARE using MainStage:</h2>
+              <div class="col-12 centered images">
+                <img src="assets/images/power-bar.png" alt="power-bar" width="200px"/>
+                <img src="assets/images/xlr.png" alt="xlr"/>
+                <img src="assets/images/stage-bug.jpg" alt="stage-bug"/>
+              </div>
+              <div class="col-12">
+                <ol>
+                  <li>Get a power bar, an XLR, and a stage bug.</li>
+                  <li>Set up the keyboard where comfortable.</li>
+                  <li>Place your laptop on a stand beside the keyboard.</li>
+                  <li>Use a MIDI cable (not provided) to connect your computer and the keyboard.</li>
+                  <li>Plug the 3.5 mm Stage Bug cable into your laptop's headphone jack.</li>
+                  <li>Using the XLR, connect the Stage Bug to channel 16.</li>
+                </ol>
+              </div>
+              <hr>
+              <h2>If you ARE NOT using MainStage:</h2>
+              <div class="col-12 centered images">
+                <img src="assets/images/power-bar.png" alt="power-bar" width="200px"/>
+                <img src="assets/images/xlr.png" alt="xlr"/>
+                <img src="assets/images/ProDI-large.jpg" alt="ProDI"/>
+                <img src="assets/images/quarter-inch.jpg" alt="quarter-inch"/>
+              </div>
+              <div class="col-12">
+                <ol>
+                  <li>Get a power bar, an XLR, a DI, and a quarter-inch.</li>
+                  <li>Set up the keyboard where comfortable.</li>
+                  <li>Connect the DI and the keyboard (LEFT OUT) by the quarter-inch cable.</li>
+                  <li>Using the XLR, connect the DI to channel 16.</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div> <!-- /.Keys -->
+
+        <div class="card"> <!-- Drums -->
+          <div class="card-header" id="drums">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseDrums" aria-expanded="false" aria-controls="collapseDrums">
+                <img src="assets/icons/drums.svg" alt="drums"><b> Drums</b>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseDrums" class="collapse" aria-labelledby="drums" data-parent="#setupAccordion">
+            <div class="card-body">
+              <div class="col-12 centered images">
+                <img src="assets/images/xlr.png" alt="xlr"/>
+                <img src="assets/images/floor-mic-stand.png" alt="floor-mic-stand"/>
+                <img src="assets/images/kick-mic.png" alt="kick-mic"/>
+              </div>
+              <div class="col-12">
+                <ol>
+                  <li>Get an XLR and the kick mic (should already be attached to the floor mic stand).</li>
+                  <li>Place the kick mic partway into the hole in the front of the kick drum.</li>
+                  <li>Use the XLR to plug the kick mic into channel 1.</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div> <!-- /.Drums -->
+
+        <div class="card"> <!-- Electric -->
+          <div class="card-header" id="electric">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseElectric" aria-expanded="false" aria-controls="collapseElectric">
+                <img src="assets/icons/electric.svg" alt="electric"><b> Electric Guitar</b>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseElectric" class="collapse" aria-labelledby="electric" data-parent="#setupAccordion">
+            <div class="card-body">
+              <div class="col-12 centered images">
+                <img src="assets/images/electric-guitar-amp.png" alt="electric-guitar-amp"/>
+                <img src="assets/images/xlr.png" alt="xlr"/>
+                <img src="assets/images/floor-mic-stand.png" alt="floor-mic-stand"/>
+                <img src="assets/images/instrument-mic.png" alt="instrument-mic"/>
+              </div>
+              <div class="col-12">
+                <ol>
+                  <li>Get an XLR, a floor mic stand, an instrument mic, and an amp if you don't have your own.</li>
+                  <li>Set up your guitar and pedals where comfortable (usually stage left).</li>
+                  <li>Set up the amp, and point it towards the wall or the back of the stage.</li>
+                  <li>Place the instrument mic directly in front of the speaker of your amp.</li>
+                  <li>Use the XLR to plug the mic into channel 12.</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div> <!-- /.Electric -->
+
+        <div class="card"> <!-- Acoustic -->
+          <div class="card-header" id="acoustic">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseAcoutsic" aria-expanded="false" aria-controls="collapseAcoutsic">
+                <img src="assets/icons/acoustic.svg" alt="acoustic"><b> Acoutsic Guitar</b>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseAcoutsic" class="collapse" aria-labelledby="acoustic" data-parent="#setupAccordion">
+            <div class="card-body">
+              <div class="col-12 centered images">
+                <img src="assets/images/quarter-inch.jpg" alt="quarter-inch"/>
+                <img src="assets/images/ProDI-large.jpg" alt="ProDI"/>
+                <img src="assets/images/xlr.png" alt="xlr"/>
+              </div>
+              <div class="col-12">
+                <ol>
+                  <li>Get a quarter-inch, a DI, and an XLR.</li>
+                  <li>Make sure that your guitar batteries are FRESH and your tuner is OFF.</li>
+                  <li>Connect your guitar's pickup* to your DI with the quarter-inch cable.</li>
+                  <li>Use the XLR to plug the DI into channel 14 (or 2).</li>
+                </ol>
+                *If your guitar doesn't have a pickup, you'll have to use an instrument mic instead of a DI.
+              </div>
+            </div>
+          </div>
+        </div> <!-- /.Acoustic -->
+
+        <div class="card"> <!-- Bass -->
+          <div class="card-header" id="bass">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseBass" aria-expanded="false" aria-controls="collapseBass">
+                <img src="assets/icons/bass.svg" alt="bass"><b> Bass</b>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseBass" class="collapse" aria-labelledby="bass" data-parent="#setupAccordion">
+            <div class="card-body">
+              <div class="col-12 centered images">
+                <img src="assets/images/quarter-inch.jpg" alt="quarter-inch"/>
+                <img src="assets/images/bass-amp.png" alt="bass-amp"/>
+                <img src="assets/images/xlr.png" alt="xlr"/>
+              </div>
+              <div class="col-12">
+                <ol>
+                  <li>Get a quarter-inch (the XLR and bass amp are usually kept on stage).</li>
+                  <li>While the bass amp is OFF, connect your bass to the amp with the quarter-inch.</li>
+                  <li>Check that the XLR from the back of the bass amp is connected to channel 11.</li>
+                  <li>Turn the bass amp ON.</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div> <!-- /.Bass -->
+
+        <div class="card"> <!-- Sound board -->
+          <div class="card-header" id="soundboard">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSoundboard" aria-expanded="false" aria-controls="collapseSoundboard">
+                <img src="assets/icons/mixer.svg" alt="mixer"><b> Sound Board</b>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseSoundboard" class="collapse" aria-labelledby="soundboard" data-parent="#setupAccordion">
+            <div class="card-body">
+              <div class="col-12 centered images">
+                <img src="assets/images/power-bar.png" alt="power-bar"/>
+                <img src="assets/images/cat5-cable-with-casing.jpg" alt="cat5-cable-with-casing"/>
+                <img src="assets/images/router.png" alt="router"/>
+                <img src="assets/images/router-cable.png" alt="router-cable"/>
+                <img src="assets/images/cat5-cable.png" alt="cat5-cable"/>
+              </div>
+              <div class="col-12">
+                <ol>
+                  <li>Get the CAT5 cable with protected ends on the top shelf of the closet.</li>
+                  <li>*Get the router, power cable, and other CAT5 cable from the In-Ear Monitors box.</li>
+                  <li>Set up the sound board on a table at the back right-hand corner of the gym.</li>
+                  <li>Plug one end of the protected CAT5 cable to the dSNAKE port on the board, and the other end to the "MIXER" plug on the wall.</li>
+                  <li>*Connect the router to the power bar.</li>
+                  <li>*Plug one end of the other CAT5 cable to the "Network" port on the board, and the other end to the router at the port farthest from the power cable with the "<-->" icon.</li>
+                  <li>Turn on the board by clicking in the Power button.</li>
+                  <li>Ensure all channels are muted.  Then, go back to the closet and turn on the main sound system.</li>
+                </ol>
+              </div>
+              *These steps only need to be done if using in-ear monitors.
+            </div>
+          </div>
+        </div> <!-- /.Sound board -->
+
+      </div>
+    </div>
+
+    <div class="col-12 centered justify-content-center">
+      Last updated Dec 2018<br>
+      <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"          title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"          title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div><br><br>
+    </div><!--/.container -->
 	</body>
 </html>
