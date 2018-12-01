@@ -2,7 +2,7 @@ body {
   background-color: #993399;
   font-family: "Montserrat", sans-serif; /* base font */
   font-weight: 300;
-  font-size: 16px;
+  font-size: 1em;
   color: white;
 
   -webkit-font-smoothing: antialiased;
@@ -17,11 +17,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title {
-  padding-top: 50px;
+  padding-top: 3.125em;
   text-align:center;
   background-attachment: relative;
   background-position: center bottom;
-  min-height: 200px;
+  min-height: 12.5em;
   width: 100%;
   
   -webkit-background-size: 100%;
@@ -37,18 +37,18 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .title h1 {
-  font-size: 60px;
+  font-size: 3.75em;
   color: white;
 }
 
 .title h3 {
-  font-size: 20px;
+  font-size: 1.25em;
   color: white;
 }
 
 /* Paragraph & Typographic */
 p {
-  line-height: 28px;
+  line-height: 1.75em;
   margin-bottom: 25px;
 }
 
@@ -58,7 +58,7 @@ p {
 
 /* Links */
 a {
-  color: #007bff;
+  color: #00b395;
   word-wrap: break-word;
 
   -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -70,7 +70,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #0056b3;
+  color: #00dbb5;
   text-decoration: none;
   outline: 0;
 }
@@ -93,16 +93,18 @@ a:after {
   padding: 0;
 }
 
+/* Buttons */
+
 .btn-primary {
-  color: #000;
+  color: #00b395;
   background-color: #ffccff;
   border-color: #ffccff;
 }
 
 .btn-primary:hover {
-  color: #000;
-  background-color: #ff99ff;
-  border-color: #ff99ff;
+  color: #00dbb5;
+  background-color: #ffddff;
+  border-color: #ffddff;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -111,7 +113,7 @@ a:after {
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
-  color: #fff;
+  color: #00dbb5;
   background-color: #660066;
   border-color: #660066;
 }
@@ -119,4 +121,46 @@ a:after {
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem #660066;
+}
+
+.btn-link {
+  color: #00b395;
+}
+
+.btn-link:hover, .btn-link:focus {
+  color: #00dbb5;
+  text-decoration: none;
+}
+
+/* Cards/Accordions and Headers */
+
+.card {
+  border-color: #660066;
+}
+
+.card-header {
+  background-color: #ffccff;
+}
+
+.card-header h5 {
+  color: #00b395;
+
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+.card-header h5:before,
+.card-header h5:after {
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+.card button:hover .card-header h5 {
+  color: #00dbb5;
 }
