@@ -6,6 +6,12 @@
 	background-color: #ffccff;
 }
 
+.card-header h5 {
+	color: #007bff;
+	font-size: 32px;
+	font-weight: bold;
+}
+
 .card-header img {
 	max-height: 48px !important;
 }
@@ -16,7 +22,14 @@
 }
 
 .card button {
-	font-size: 32px !important;
+	text-align: left;
+	padding: 0px !important;
+	border: 0px !important;
+	font-size: 32px;
+}
+
+.card button:hover .card-header h5 {
+	color: #0056b3;
 }
 
 .card li {

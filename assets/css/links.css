@@ -1,0 +1,21 @@
+.card {
+	border-color: #660066;
+}
+
+.card-header {
+	background-color: #ffccff;
+}
+
+.card-header h5 {
+	color: black;
+}
+
+.card-body {
+	background-color: white;
+	color: black;
+	text-align: left;
+}
+
+.card button {
+	font-size: 32px;
+}
