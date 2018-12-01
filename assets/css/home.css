@@ -4,4 +4,5 @@ button {
 
 .button-text {
   	font-size: 2em;
+  	white-space: normal;
 }

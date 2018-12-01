@@ -1,3 +1,4 @@
+/*
 .card {
 	border-color: #660066;
 }
@@ -5,10 +6,10 @@
 .card-header {
 	background-color: #ffccff;
 }
+*/
 
 .card-header h5 {
-	color: #007bff;
-	font-size: 32px;
+	font-size: 1em;
 	font-weight: bold;
 }
 
@@ -22,10 +23,10 @@
 	text-align: left;
 	padding: 0px !important;
 	border: 0px !important;
-	font-size: 32px;
+	font-size: 2em;
 	white-space: normal;
 }
-
+/*
 .card button:hover .card-header h5 {
 	color: #0056b3;
-}
+}*/

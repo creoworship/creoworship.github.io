@@ -103,8 +103,8 @@ a:after {
 
 .btn-primary:hover {
   color: #00dbb5;
-  background-color: #ffddff;
-  border-color: #ffddff;
+  background-color: #660066;
+  border-color: #660066;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -140,6 +140,12 @@ a:after {
 
 .card-header {
   background-color: #ffccff;
+
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
 .card-header h5 {
@@ -163,4 +169,16 @@ a:after {
 
 .card button:hover .card-header h5 {
   color: #00dbb5;
+}
+
+.card button:focus .card-header h5 {
+  color: #00dbb5;
+}
+
+.card button:hover .card-header {
+  background-color: #660066;
+}
+
+.card button:focus .card-header {
+  background-color: #660066;
 }
