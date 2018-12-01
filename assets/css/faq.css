@@ -8,14 +8,12 @@
 
 .card-header h5 {
 	color: #007bff;
-	font-size: 32px;
-	font-weight: bold;
 }
 
 .card-body {
 	background-color: white;
 	color: black;
-	text-align: center;
+	text-align: left;
 }
 
 .card button {
@@ -28,4 +26,9 @@
 
 .card button:hover .card-header h5 {
 	color: #0056b3;
+}
+
+.card img {
+	max-height: 200px;
+	max-width: 200px;
 }

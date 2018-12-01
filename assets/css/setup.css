@@ -26,6 +26,7 @@
 	padding: 0px !important;
 	border: 0px !important;
 	font-size: 32px;
+	white-space: normal;
 }
 
 .card button:hover .card-header h5 {

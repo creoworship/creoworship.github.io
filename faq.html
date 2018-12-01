@@ -13,10 +13,14 @@
 	    <!-- Fonts -->
     	<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
 
+      <!-- Icons -->
+      <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+
 	    <!-- Bootstrap CSS -->
 	    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	    <!-- Custom CSS -->
 	    <link rel="stylesheet" href="assets/css/main.css">
+      <link rel="stylesheet" href="assets/css/faq.css">
 
 	    <!-- JavaScript -->
 	    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -72,7 +76,148 @@
     	<!-- /.Navbar -->
 		<div class="title centered col-12">
 			<h1>FAQ</h1>
-			<h3>Under construction</h3>
+			<h3>Got questions?</h3>
 		</div>
+
+    <div class="col-12">
+      <div class="accordion" id="faqAccordion">
+
+        <div class="card">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+            <div class="card-header" id="question1">
+              <h5 class="mb-0">
+                How do I coil a cable?  What's an over-under coil?
+              </h5>
+            </div>
+          </button>
+          <div id="collapse1" class="collapse" aria-labelledby="question1" data-parent="#faqAccordion">
+            <div class="card-body">
+              <div class="col-12">
+                Check out this easy tutorial here:
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0yPcJD7RVuY?rel=0" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- /.card -->
+
+        <div class="card">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+            <div class="card-header" id="question2">
+              <h5 class="mb-0">
+                What's a DI?  Why do I need it?
+              </h5>
+            </div>
+          </button>
+          <div id="collapse2" class="collapse" aria-labelledby="question2" data-parent="#faqAccordion">
+            <div class="card-body">
+              <div class="col-12 centered">
+                <img src="assets/images/ProDI-large.jpg" alt="ProDI"/>
+              </div>
+              <div class="col-12">
+                DI stands for "Direct Input".  It's used to transform a high-impedance signal (like from a guitar or keyboard) into a low-impedance signal.  This helps get rid of distortion and noise when playing.<br><br>
+                There are passive and active DIs.  Passive ones don't require power while active ones do.  All the DIs we have at Creo are passive DIs.
+              </div>
+            </div>
+          </div>
+        </div> <!-- /.card -->
+
+        <div class="card">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+            <div class="card-header" id="question3">
+              <h5 class="mb-0">
+                How do I use a DI properly?  What are all the buttons and inputs?
+              </h5>
+            </div>
+          </button>
+          <div id="collapse3" class="collapse" aria-labelledby="question3" data-parent="#faqAccordion">
+            <div class="card-body">
+              <div class="col-12 centered">
+                <img src="assets/images/ProDI-large.jpg" alt="ProDI"/>
+              </div>
+              <div class="col-12">
+                First, connect your instrument to the DI with a quarter-inch cable into the "INPUT" port.<br><br>
+                Next, connect the DI to the right channel with an XLR.<br><br>
+                Pressing in the "LIFT" button switches on Ground Lift, which can help reduce humming.<br><br>
+                If you have the "PAD" button pushed in, this will reduce the volume of your signal by 15 dB.  You generally don't want to do this unless the sound techs ask you to do it.<br><br>
+                The "THRU" is a separate output (NOT an input) that is normally used to send the signal to another amplifier, like one on stage.  We don't normally use this.
+              </div>
+            </div>
+          </div>
+        </div> <!-- /.card -->
+
+        <div class="card">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+            <div class="card-header" id="question4">
+              <h5 class="mb-0">
+                How do I use the Qu-You app?
+              </h5>
+            </div>
+          </button>
+          <div id="collapse4" class="collapse" aria-labelledby="question4" data-parent="#faqAccordion">
+            <div class="card-body">
+              <div class="col-12">
+                Check out this tutorial video!  Note that this is for a different church, but the main principles remain the same:
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ippoCEfwAgE" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- /.card -->
+
+        <div class="card">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+            <div class="card-header" id="question5">
+              <h5 class="mb-0">
+                Where can I get the Qu-24 app?
+              </h5>
+            </div>
+          </button>
+          <div id="collapse5" class="collapse" aria-labelledby="question5" data-parent="#faqAccordion">
+            <div class="card-body">
+              <div class="col-12">
+                <a href="https://itunes.apple.com/app/qu-you/id935278018" target="_blank">
+                  <i class="fab fa-app-store" style="font-size: 2em;"></i> App Store
+                </a>
+              </div>
+              <br>
+              <div class="col-12">
+                <a href="https://play.google.com/store/apps/details?id=com.allenheath.qumon" target="_blank">
+                  <i class="fab fa-google-play" style="font-size: 2em;"></i> Google Play
+                </a>
+              </div>
+            </div>
+          </div>
+        </div> <!-- /.card -->
+
+        <div class="card">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+            <div class="card-header" id="question6">
+              <h5 class="mb-0">
+                Who can I contact about this website?
+              </h5>
+            </div>
+          </button>
+          <div id="collapse6" class="collapse" aria-labelledby="question6" data-parent="#faqAccordion">
+            <div class="card-body">
+              <div class="col-12">
+                <a href="mailto:jordanmychiu@gmail.com" target="_blank">Send me an email here.</a>
+                <br>
+                <br>
+                You can also contribute to this site's <a href="https://github.com/creoworship/creoworship.github.io" target="_blank">GitHub project</a> if you want!
+              </div>
+            </div>
+          </div>
+        </div> <!-- /.card -->
+
+
+      </div>
+    </div>
+
+    <div class="col-12 centered justify-content-center">
+      Last updated Dec 2018<br><br>
+    </div><!--/.container -->
 	</body>
 </html>
